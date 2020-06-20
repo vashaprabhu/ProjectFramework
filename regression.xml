@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="ReportListeners.listener"></listener>
+</listeners>
+  <test  name="LoginTest">
+    <classes>
+      <class name="LoginTest.login"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="SetupTest">
+    <classes>
+      <class name="SetupTest.setup"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="Logout">
+    <classes>
+      <class name="LogoutTest.logout"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
